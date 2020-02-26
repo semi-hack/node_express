@@ -14,9 +14,6 @@ router.get('/register', (req, res) => res.render('register'));
 
 // Register Handle
 router.post('/api/register', userController.createUser)
-// router.post('/register', (req, res) =>{
-//   const { name, email, password, password2} = req.body;
-//   let errors = [];
 
 //   // Check Required Fields
 //   if(!name || !email || !password || !password2){
